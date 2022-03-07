@@ -6,4 +6,4 @@ I want to test the combination of pycham + git to understand version control.
   - added one line ".idea" to the file ".gitignore"
   - choose mit license, choose default readme file 
 - clone repo to local folder and create new pycharm project from this local folder.
-- create a folder "src", and add one python file [hello.py](src/hello.py)
+- create a folder "src", and add one python code [hello.py](src/hello.py)
