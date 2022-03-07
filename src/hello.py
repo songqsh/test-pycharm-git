@@ -1,6 +1,8 @@
 # This is the first python code
-import math
 
-a = math.sin(math.pi)
+import numpy as np
+import matplotlib.pyplot as plt
 
-print(f"hello, the world! here is sin(pi) computed by python: {a}")
+x = np.arange(0, 2*np.pi, .01)
+plt.plot(x, np.sin(x))
+plt.show()
