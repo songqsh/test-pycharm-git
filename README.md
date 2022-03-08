@@ -9,3 +9,5 @@ I want to test the combination of pycham + git to understand version control.
 - clone repo to local folder and create new pycharm project from this local folder.
 - create a folder "src", and add one python code [hello.py](src/hello.py)
 - install "jupyter" package and create "hello.ipynb"
+- install "scipy" package and create a notebook [LP-WG](src/LP-Wyndor-Glass-by-Scipy.ipynb)
+
