@@ -1,11 +1,15 @@
-# print out all possible 3 by 3 sudoku
+# print out all possible sudoku
 import itertools
-cols = itertools.permutations(range(3))
+import numpy as np
 
-tabs = itertools.permutations(cols,3)
+row_num = 2
+
+rows = itertools.permutations(range(row_num))
+tabs = itertools.permutations(rows, row_num)
 counter = 0
 for tab in tabs:
-    print(tab)
+    print(np.array(tab))
+    print('=============')
     counter += 1
 
 print(f'{counter} many tables')
